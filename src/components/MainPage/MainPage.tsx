@@ -1,6 +1,6 @@
 import TabList from "../TabList";
 import Sort from "../Sort";
-import CardMain from "../CardMain";
+import CardCities from "../CardCities";
 
 function MainPage(): JSX.Element {
   return (
@@ -48,11 +48,11 @@ function MainPage(): JSX.Element {
               <b className="places__found">312 places to stay in Amsterdam</b>
               <Sort />
               <div className="cities__places-list places__list tabs__content">
-                <CardMain />
-                <CardMain />
-                <CardMain />
-                <CardMain />
-                <CardMain />
+                <CardCities />
+                <CardCities />
+                <CardCities />
+                <CardCities />
+                <CardCities />
               </div>
             </section>
             <div className="cities__right-section">
