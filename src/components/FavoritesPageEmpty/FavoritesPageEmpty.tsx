@@ -1,4 +1,4 @@
-import Footer from "../Footer";
+import Footer from '../Footer';
 
 function FavoritesPageEmpty(): JSX.Element {
   return (
@@ -45,7 +45,7 @@ function FavoritesPageEmpty(): JSX.Element {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default FavoritesPageEmpty;

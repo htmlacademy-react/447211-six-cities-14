@@ -333,7 +333,7 @@ function OfferPage(): JSX.Element {
         </div>
       </main >
     </div >
-  )
+  );
 }
 
 export default OfferPage;

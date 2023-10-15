@@ -32,7 +32,7 @@ function TabList(): JSX.Element {
         </a>
       </li>
     </ul>
-  )
+  );
 }
 
 export default TabList;

@@ -1,6 +1,6 @@
-import TabList from "../TabList";
-import Sort from "../Sort";
-import CardCities from "../CardCities";
+import TabList from '../TabList';
+import Sort from '../Sort';
+import CardCities from '../CardCities';
 
 function MainPage(): JSX.Element {
   return (
@@ -62,7 +62,7 @@ function MainPage(): JSX.Element {
         </div>
       </main>
     </div>
-  )
+  );
 }
 
 export default MainPage;

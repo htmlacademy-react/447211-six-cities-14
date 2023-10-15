@@ -1,4 +1,4 @@
-import Footer from "../Footer";
+import Footer from '../Footer';
 
 function FavoritesPage(): JSX.Element {
   return (
@@ -163,7 +163,7 @@ function FavoritesPage(): JSX.Element {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default FavoritesPage;
