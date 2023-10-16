@@ -6,8 +6,12 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
+type IndexProps = {
+  countOffers: number;
+}
+
 root.render(
   <React.StrictMode>
-    <App />
+    <App countOffers={312} />
   </React.StrictMode>
 );
