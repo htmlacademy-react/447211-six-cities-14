@@ -1,6 +1,6 @@
-import TabList from '../TabList';
-import Sort from '../Sort';
-import CardCities from '../CardCities';
+import TabList from '../../tab-list';
+import Sort from '../../sort';
+import CardCities from '../../card-cities';
 
 function MainPage(): JSX.Element {
   return (

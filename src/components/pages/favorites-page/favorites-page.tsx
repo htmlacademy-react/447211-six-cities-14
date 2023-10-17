@@ -1,5 +1,5 @@
-import CardFavorites from '../CardFavorites';
-import Footer from '../Footer';
+import CardFavorites from '../../card-favorites';
+import Footer from '../../footer';
 
 function FavoritesPage(): JSX.Element {
   return (
