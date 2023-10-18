@@ -1,4 +1,11 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from '../layout';
 import MainPage from '../pages/main-page';
+import Login from '../pages/login-page';
+import Favorites from '../pages/favorites-page';
+import Offer from '../pages/offer-page';
+import Page404 from '../pages/page-404';
+
 
 type AppProps = {
   countOffers: number;
@@ -6,7 +13,16 @@ type AppProps = {
 
 function App({countOffers}: AppProps): JSX.Element {
   return (
-    <MainPage countOffers={countOffers}/>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+      <Route index element={<MainPage countOffers={countOffers} />}/>
+      <Route path='login' element={<Login />}/>
+      <Route path='favorites' element={<Favorites />}/>
+      <Route path='offer/:id' element={<Offer />}/>
+      <Route path='*' element={<Page404 />}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
